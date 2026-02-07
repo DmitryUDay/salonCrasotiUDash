@@ -31,9 +31,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 /* ===== ТИПОГРАФИЯ ===== */
@@ -286,7 +285,6 @@ a:hover {
     max-height: 500px;
     object-fit: cover;
     object-position: center;
-    border-radius: 15px;
     display: block;
     margin: 0 auto;
 }
@@ -929,12 +927,7 @@ a:hover {
 }
 
 /* Усиление тени при наведении */
-.service-image img:hover,
-.course-image img:hover,
-.hero-image img:hover,
-.flexer img:hover {
-    box-shadow: 0 0 30px 10px rgba(255, 105, 180, 0.5);
-}
+
 
 /* Для benefit-icon (это не img, а текстовая иконка) */
 .benefit-icon {
